@@ -10,6 +10,6 @@ public class EjemploTest {
     public void pruebaDeEjemplo() {
         Ejemplo ejemplo = new Ejemplo();
         assertThat(ejemplo.saludar()).isEqualTo("Hola!");
-    }f
+    }
 
 }
