@@ -9,7 +9,7 @@ public class EjemploTest {
     @Test
     public void pruebaDeEjemplo() {
         Ejemplo ejemplo = new Ejemplo();
-        assertThat(ejemplo.saludar()).isEqualTo("Hoddla!");
+        assertThat(ejemplo.saludar()).isEqualTo("Hola!");
     }
 
 }
